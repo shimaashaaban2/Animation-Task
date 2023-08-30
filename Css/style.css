@@ -1,0 +1,149 @@
+
+body{
+    font-family: 'Poppins', 'san-serif';
+    background-color: gray;
+}
+
+.div1{
+ margin: 10px;
+ margin-top: 0px;
+ width: 200px;
+ height: 100px;
+ background-color: rgba(0, 0, 255, 0.63);
+ text-align: center;
+ font-size:  35px; 
+ color: #fff;
+ border-radius: 8px;
+ position: absolute;
+ animation-name: change;
+ animation-duration: 2s;
+ animation-fill-mode: forwards; 
+}
+
+.div2{
+    width: 200px;
+    margin-right: 13px !important;
+
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.86);
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    animation-name: change-2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+ .div3{
+   width: 200px;
+ height: 100px;
+ background-color: rgba(0, 0, 255, 0.63);
+ text-align: center;
+ font-size:  35px; 
+ color: #fff;
+ border-radius: 8px;
+ position: absolute;
+ animation-name: change;
+ animation-duration: 2s;
+ animation-fill-mode: forwards; 
+  animation-delay: 3s; 
+}
+ .div4{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.86);
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    animation-name: change-2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+     animation-delay: 3s; 
+}
+.div5{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.63);
+    text-align: center;
+    font-size:  35px; 
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    animation-name: change;
+    animation-duration: 2s;
+    animation-fill-mode: forwards; 
+     animation-delay: 6s; 
+}
+.div6{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(165, 42, 42, 0.86);
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    border-radius: 8px;
+    position: absolute;
+    animation-name: change-2;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+     animation-delay: 6s;  
+}  
+
+@keyframes change{
+    0%{
+      background-color: red;
+      left: 0;
+    }
+    25%{
+     background-color: yellow;
+    
+    }
+    50%{
+    background-color: blueviolet;
+    /* left:1190px; */
+    }
+    75%{
+    background-color: black;
+    
+    }
+    100%{
+        
+      background-color: cornflowerblue;
+      left: 1100px;
+    }
+}
+@keyframes change-2{
+    0%{
+      background-color: red;
+      right: 0;
+    }
+    25%{
+     background-color: yellow;
+     
+    }
+    50%{
+    background-color: blueviolet;
+    }
+    75%{
+    background-color: black;
+
+    }
+    100%{
+        
+        background-color: cornflowerblue;
+        right: 1100px;
+    }
+}
+
+.container2{
+    position: relative;
+    top: 200px;
+}
+
+.container3{
+    position: relative;
+    top: 400px;
+}
